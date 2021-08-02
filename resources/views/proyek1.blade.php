@@ -26,7 +26,7 @@
             <div class="card card-chart">
                 <div class="card-header">
                     <h5 class="card-category">Settlement Plate 1</h5>
-                    <td>Waktu Update {{$data->waktu}}</td>
+                    <td>Waktu Update {{$data->waktu}}</td >
                 </div>
                 <div class="card-body">
                     <table class="table table-striped">
