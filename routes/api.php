@@ -26,3 +26,12 @@ Route::get('/pj1_2', [App\Http\Controllers\ApiController::class, 'spj1_2']);
 
 Route::post('/pj1_3', [App\Http\Controllers\ApiController::class, 'cpj1_3']);
 Route::get('/pj1_3', [App\Http\Controllers\ApiController::class, 'spj1_3']);
+
+Route::post('/pj2_1', [App\Http\Controllers\ApiController::class, 'cpj2_1']);
+Route::get('/pj2_1', [App\Http\Controllers\ApiController::class, 'spj2_1']);
+
+Route::post('/pj2_2', [App\Http\Controllers\ApiController::class, 'cpj2_2']);
+Route::get('/pj2_2', [App\Http\Controllers\ApiController::class, 'spj2_2']);
+
+Route::post('/pj2_3', [App\Http\Controllers\ApiController::class, 'cpj2_3']);
+Route::get('/pj2_3', [App\Http\Controllers\ApiController::class, 'spj12_3']);
